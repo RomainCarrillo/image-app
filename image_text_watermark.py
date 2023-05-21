@@ -40,7 +40,7 @@ font = ImageFont.truetype("arial.ttf", int(font_size/6))
  
 # add Watermark
 # (0,0,0)-black color text
-draw.text((x, 100), "La maison des ours", fill=(0, 0, 0), font=font, anchor='ms')
+draw.text((x, 100), "Bienvenue", fill=(0, 0, 0), font=font, anchor='ms')
 plt.subplot(1, 2, 1)
 plt.title("black text")
 

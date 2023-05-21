@@ -29,7 +29,7 @@ font = ImageFont.truetype("arial.ttf", int(font_size/6))
  
 # add Watermark
 # (0,0,0)-black color text
-draw.text((x, y), "La maison des ours", fill=(0, 0, 0), font=font, anchor='ms')
+draw.text((x, y), "Bienvenue", fill=(0, 0, 0), font=font, anchor='ms')
 plt.subplot(1, 2, 1)
 plt.title("black text")
 watermark_image.show()
@@ -37,7 +37,7 @@ plt.imshow(watermark_image)
  
 # add Watermark
 # (255,255,255)-White color text
-draw.text((x, y), "La maison des ours", fill=(255, 255, 255), font=font, anchor='ms')
+draw.text((x, y), "Bienvenue", fill=(255, 255, 255), font=font, anchor='ms')
 plt.subplot(1, 2, 2)
 plt.title("white text")
 watermark_image.show()
